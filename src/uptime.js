@@ -11,7 +11,7 @@ class uptime {
         var vscode = this.vscode;
         var StatusBarAlignment = vscode.StatusBarAlignment;
         var window = this.vscode.window;
-        this.statusBar = window.createStatusBarItem(StatusBarAlignment.Right);
+        this.statusBar = window.createStatusBarItem(StatusBarAlignment.Right, 200);
         var disposable = [];
 
         this.disposable = vscode.Disposable.from(disposable);
